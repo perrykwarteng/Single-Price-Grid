@@ -1,0 +1,42 @@
+:root {
+  --color-primary: hsl(179, 62%, 43%);
+  --color-text: hsl(71, 73%, 54%);
+  --color-secondary: hsl(204, 43%, 93%);
+  --color-natural: hsl(218, 22%, 67%);
+  --font-text: 1.6rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* Typograph */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background: var(--color-secondary);
+}
+h1,
+h2 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.7rem;
+}
+p {
+  font-size: 1.6rem;
+}
